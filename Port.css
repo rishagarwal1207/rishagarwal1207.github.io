@@ -1,0 +1,332 @@
+
+body{
+    background-color: rgb(255, 187, 0);
+}
+/*Introductory*/
+.main section{
+    font: xx-large 'Poppins', sans-serif;
+    background-color: whitesmoke;
+    padding:10px 0px 20px 0px;
+    margin-top: 50px;
+    margin-left: 150px;
+    width:100%;
+    font-weight: bold;
+    letter-spacing: 3;
+}
+
+.main section h1{
+   
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin-left: 60px;
+    color: white;
+    text-transform:uppercase;
+    letter-spacing: 12;
+    font-size: 80px;
+    font-family: Helvetica;
+}
+.main section p{
+    font: x-large 'Comfortaa', cursive;
+    margin-left: 80px;
+ }
+
+ /*menu and overlay*/
+.intro {
+    display: flex;
+    width: 100%;
+    height :600px;
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro ul {
+    list-style: none;
+    text-align: center;
+    
+}
+.intro ul li{
+    padding: 10px;
+    margin: 20px;
+}
+.intro ul li a{
+    text-decoration: none;
+    color: black;
+    font : xx-large 'Comfortaa', cursive;
+    
+    letter-spacing: 2;
+    text-transform: uppercase;
+}
+.intro--Link{
+    display: block;
+    padding:15px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    font:x-large Helvetica ;
+    letter-spacing: 7;
+    transition: 0.4s;
+    
+}
+.intro--Link:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+#overlay{
+    display:none;
+    justify-content: center;
+     cursor:pointer;
+    width: 60%;
+    height:100%;
+}
+/*Main divisions*/
+.section-div{
+   align-items: space-evenly;   
+}
+/*Introductory headings*/
+.heading{
+    font: 60px bolder;
+    color: black;
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 10;
+    text-transform: uppercase;
+    margin: 10px; 
+    text-shadow: 4px 2px 8px black;
+}
+/*Main divisions*/
+.section-div--div1{
+    
+    justify-content: space-evenly;
+   margin-right: 120px;
+   padding: 40px;
+   background-color: whitesmoke;
+   
+}
+
+.section-div--div2{
+    display: flex;
+    padding: 40px;
+    color:white;
+     justify-content: space-evenly;
+}
+/*Qualification*/
+.grid1{
+    display: flex;
+    justify-content: space-evenly;
+    margin:30px;
+    
+}
+.session{
+    display: block;
+     font-size: 20px;
+     letter-spacing: 2;
+     font-family: 'Comfortaa', cursive;
+     color:black;
+}
+.degree{
+    font-family: 'Comfortaa', cursive;
+    display: block;
+    letter-spacing: 0;
+    font-size: large;
+    
+
+}
+.kiet{
+    letter-spacing: 4;
+    display: block;
+}
+.college{
+    font-family: 'Comfortaa', cursive;
+    font-weight: 900;
+    letter-spacing: 1;
+    font-size: xx-large;
+    display: block;
+}
+.per{
+    font-size: x-large;
+    font-family: 'Comfortaa', cursive;
+    display: block;
+}
+.grid-contain{
+    
+    transition: 0.4s;
+    border: 3px solid rgb(255, 187, 0);
+    fill-opacity: transparent;
+    color: black;
+    margin: 30px 40px;
+    padding: 50px;
+    text-align: center;
+    align-items: space-evenly;
+}
+.grid-contain:hover{
+    background-color: rgb(255, 187, 0);
+}
+/*experience*/
+.workss{
+    text-align: center;
+    letter-spacing: 4;
+    font: xx-large 'Comfortaa', cursive;
+    text-transform: uppercase;
+}
+.workss-tech{
+    text-align: center;
+    font: x-large 'Comfortaa', cursive;
+}
+.workss-skill{
+    margin-left: 20px;
+    
+    font: x-large 'Comfortaa', cursive;
+}
+.grid-contain2{
+    box-shadow: 5px 5px 5px 0px black;
+    height:300px;
+    width:450px;
+    opacity: 0.7;
+    background-color:black;
+    margin: 20px 20px;
+    justify-content: center;
+    padding: 20px;
+    align-items: space-evenly;
+}
+
+.work{
+   padding: 20px;
+}
+/*skill*/
+.grid-contain1{
+    display: flex;
+    color:whitesmoke;
+    font: xx-large 'Comfortaa', cursive;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 6;
+    height:150px;
+    width:150px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 200px;
+    margin: 20px 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 7px 7px rgba(0, 0, 0, 0.699);
+    align-items: space-evenly;
+    
+}
+/*contact*/
+i{
+    font-size: 40px;
+    margin : 20px;
+    padding: 20px;
+    color: black;
+   
+}
+.section-div--div2--icon{
+    display:block;
+}
+/*leadership*/
+.lead-head-1{
+    display: flex;
+    justify-items: space-evenly;
+    align-items: center;
+}
+.lead-head-1 ul{
+    color: black;
+   list-style-type: none;
+}
+.lead-head{
+    font: xx-large 'Comfortaa', cursive;
+    color: black;
+}
+.lead-head2{
+    font: x-large 'Comfortaa', cursive;
+    margin-left: 30px;
+}
+/*abt me*/
+.image{
+    display: flex;
+    font: x-large 'Comfortaa', cursive;
+    
+    background-color: rgb(255, 187, 0);
+    padding: 30px;
+    margin: auto;
+    align-items: center;
+}
+
+.image a{
+    color: black;
+    text-transform: uppercase;
+    padding : 20px;
+    border-radius: 55px;
+    width: 170px;
+    height: 200px;
+    font:x-large Helvetica ;
+    letter-spacing: 7;
+    text-decoration: none;
+    border: 3px solid black;
+}
+.image--1{
+   background-image: url(./WhatsApp\ Image\ 2020-07-20\ at\ 5.08.38.12.jpeg);
+    margin: 100px;
+    height: 450px;
+    width: 450px;
+    border-radius: 400px;
+    box-shadow:6px 4px 6px 2px rgba(0, 0, 0, 0.767);
+}
+.image--2{
+    text-align: center;
+    display: block;
+    
+}
+.image--2-p-Head{
+    font: xx-large Helvetica;
+    letter-spacing: 10;
+    color:black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.image--2 h1{
+    font: 60px bolder;
+    color: black;
+    
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 10;
+    text-transform: uppercase;
+}
+.resume{
+    transition: 0.4s;
+}
+.resume:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+/*contact*/
+.contact{
+   font: x-large 'Comfortaa', cursive;
+   color: black;
+   margin-left: 10px;
+}
+.sidebar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+/*contact--line*/
+.vl {
+    border-left: 6px solid black;
+    height: 400px;
+  }
+  /*leadership--line*/
+.vl1{
+    border-left: 6px solid black;
+    height: 700px;
+  }
+  footer{
+      text-align: center;
+      font: large 'Comfortaa', cursive;
+      margin: 10px;
+  }
